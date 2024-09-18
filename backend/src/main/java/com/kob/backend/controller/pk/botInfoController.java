@@ -20,8 +20,8 @@ public class botInfoController {
         bot1.put("name" , "Sword");
         bot1.put("rating" , "1500");
         Map<String, String> bot2 = new HashMap<>();
-        bot2.put("name" , "Sword");
-        bot2.put("rating" , "1500");
+        bot2.put("name" , "apple");
+        bot2.put("rating" , "2500");
 
         list.add(bot1);
         list.add(bot2);

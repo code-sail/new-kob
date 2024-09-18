@@ -20,8 +20,9 @@ export default{
       url: "http://localhost:3030/pk/getbotinfo/",
       type: "get",
       success: resp =>{
-        bot_name.value = resp.list.bot1.name;
-        bot_rating.value = resp.list.bot1.rating;
+        var first = resp[1];
+        bot_name.value = first.name;
+        bot_rating.value = first.rating;
       }
     })
 

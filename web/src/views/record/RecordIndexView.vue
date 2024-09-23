@@ -1,10 +1,19 @@
 <template>
-    <div>
-        
-    </div>
+    <ContentField>
+        得分
+    </ContentField>
 </template>
 
-<script></script>
+<script>
+    import ContentField from "../../components/ContentFIeld.vue"
+
+    export default{
+        components:{
+            ContentField
+        }
+    }
+
+</script>
 
 
 <style scoped></style>

@@ -1,10 +1,11 @@
 <template>
-    <div>
-        404 Not Found
-    </div>
+ <div> 404
+ </div>
 </template>
 
-<script></script>
+<script>
+</script>
 
 
-<style scoped></style>
+<style scoped>
+</style>

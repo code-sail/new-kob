@@ -145,7 +145,7 @@ export class Snake extends AcGameObject{
        for(let i = 0; i < 2; i ++){
         const eye_x = (this.cells[0].x + this.eye_dx[this.eye_direction][i] * 0.2) * L;
         const eye_y = (this.cells[0].y + this.eye_dy[this.eye_direction][i] * 0.2) * L;
-        console.log(eye_x,eye_y); // 调试
+         // console.log(eye_x,eye_y); // 调试
         ctx.beginPath();
         ctx.arc(eye_x, eye_y, L * 0.06, 0, Math.PI * 2 );
         ctx.fill();
